@@ -12,5 +12,8 @@ logs/
 # System
 .DS_Store
 
-# Test files (optional, keeping crash.jar for now as it's part of the test suite)
-# crash.jar
+# Test files
+crash.jar
+
+# Config Files
+.gitignore
