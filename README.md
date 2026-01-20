@@ -183,8 +183,31 @@ sudo lsm config-pause --enable=false
 | `--schedule` | Cron expression for periodic restarts. | `@daily`, `0 4 * * *` |
 
 ### Database & Logs
-- **Database**: `/var/lib/lsm/lsm.db` (SQLite)
-- **Logs**: `/var/log/lsm/lsm.log`
+## Building from Source
+
+We provide helper scripts to build the binary for different platforms.
+
+### 1. Building for Linux (from macOS/Cross-Compile)
+Use this if you are developing on a Mac but deploying to a Linux server.
+```bash
+./mac_os_build.sh
+```
+*Generates `lsm-linux`*
+
+### 2. Building for Linux (Native)
+Use this if you are building directly on a Linux machine.
+```bash
+chmod +x linux_build.sh
+./linux_build.sh
+```
+*Generates `lsm-linux`*
+
+### 3. Building for Windows
+Use this if you are building on Windows.
+```bat
+windows_build.bat
+```
+*Generates `lsm.exe`*
 
 
 
