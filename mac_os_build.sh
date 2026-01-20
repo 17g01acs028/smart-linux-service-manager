@@ -11,4 +11,3 @@ CGO_ENABLED=0 GOOS=linux GOARCH=amd64 go build -o "$OUTPUT" main.go
 
 echo "Success! Binary created at: $(pwd)/$OUTPUT"
 echo "You can now upload it:"
-echo "scp $OUTPUT administrator@93.127.128.88:~/"
