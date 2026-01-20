@@ -202,12 +202,12 @@ chmod +x linux_build.sh
 ```
 *Generates `lsm-linux`*
 
-### 3. Building for Windows
-Use this if you are building on Windows.
+### 3. Building for Linux (from Windows)
+Use this if you are developing on Windows but deploying to a Linux server.
 ```bat
 windows_build.bat
 ```
-*Generates `lsm.exe`*
+*Generates `lsm-linux`*
 
 
 
